@@ -1,0 +1,32 @@
+body
+{
+  background: linear-gradient(182deg, #b4b7b7, #3a3a3a);
+  background-size: 400% 400%;
+  font-family: "Bank Gothic Medium";
+  color: White;
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:51% 0%}
+   50%{background-position:50% 100%}
+   100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:51% 0%}
+   50%{background-position:50% 100%}
+   100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+   0%{background-position:51% 0%}
+   50%{background-position:50% 100%}
+   100%{background-position:51% 0%}
+}
+@font-face {
+    font-family: 'Bank Gothic Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bank Gothic Medium'), url('ufonts.com_bank-gothic-medium.woff') format('woff');
+}
