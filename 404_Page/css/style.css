@@ -1,0 +1,23 @@
+body
+{
+  background-color: #131a21;
+  font-size: 15px;
+  font-family: arial,sans-serif;
+  text-align: center;
+
+
+  color: rgb(72,72,72);
+}
+a
+{
+  text-decoration: none;
+  color: White;
+}
+.errorCode
+{
+  color: White;
+  text-align: inherit;
+  font-family: inherit;
+  font-size: 15px;
+}
+;
