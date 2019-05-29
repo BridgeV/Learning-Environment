@@ -20,4 +20,43 @@ a
   font-family: inherit;
   font-size: 15px;
 }
+.HUD_core
+{
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  transform-origin: center center;
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.HUD_shell
+{
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  transform-origin: center center;
+  -webkit-animation:spinshell 4s linear infinite;
+    -moz-animation:spinshell 4s linear infinite;
+    animation:spinshell 4s linear infinite;
+}
+.HUD_shell :hover
+{
+  border-style: solid;
+  border-color: red;
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  transform-origin: center center;
+  -webkit-animation:spinshell 4s linear infinite;
+    -moz-animation:spinshell 4s linear infinite;
+    animation:spinshell 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spinshell { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spinshell { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spinshell { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 ;
